@@ -3,7 +3,6 @@
     display: flex;
     font-weight: 700;
     justify-content:space-between;
-    max-width: 100%;
 }
 
 input {
@@ -15,15 +14,15 @@ input {
 }
 
 input[type=number] {
-    width: 201px;
+    width: 180px;
 }
 
 input[type=text] {
-    width: 593px;
+    width: 480px;
 }
 
 input[type=date] {
-    width: 201px;
+    width: 180px;
 }
 
 .search-button {
@@ -35,7 +34,6 @@ input[type=date] {
     border-radius: 10px;
     border: none;
 }
-
 
 .news-table {
     width:100%;
