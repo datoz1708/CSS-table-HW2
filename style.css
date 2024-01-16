@@ -1,3 +1,8 @@
+@font-face {
+  font-family: inter;
+  src: url(fonts/Inter-Regular.ttf);
+}
+
 .box {
   margin-left: 114px;
   margin-right: 114px;
@@ -5,6 +10,9 @@
   margin-bottom: 38px;
 }
 
+.search-box {
+  font-size: 15px;
+}
 
 .search-box input {
   width: 100%;
@@ -41,7 +49,7 @@
   font-weight: 500;
   border-radius: 10px;
   margin-top: 10px;
-}
+} 
 
 .search-box {
   display: flex;
